@@ -1,1 +1,88 @@
 /* Add CSS styling here */
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:0; 
+}
+html {
+    font-size:62.5%;
+}
+h1, h2{
+    font-size: 4rem;
+    text-align:center;
+    font-family: 'Satisfy', cursive;
+    color: coral;
+}
+.links {
+    font-family: 'Raleway', sans-serif;
+    font-variant: all-small-caps;
+    display:flex;
+    justify-content:center;
+    font-size: 2rem;
+}
+.links a {
+    color:coral;
+    background-color: powderblue;
+    border: 5px dotted coral;
+    padding: 0 3%;
+}
+header{
+    background-color: powderblue;
+}
+ .intropara p {
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+    background-color: coral;
+
+}
+section .toppicture {
+    width: 100%;
+    height:30%;
+}
+.bigpicture img {
+    border: 5px solid powderblue;
+}
+.bottomsection {
+    display:flex;
+    background:powderblue;
+    border: 5px solid coral;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.bottomsection div{
+    border: none;
+    width:18%;
+    display:flex
+}
+#one img{
+
+} 
+#two img{
+}
+#three img{
+
+}
+#four img {
+    }
+   
+#text p {
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+}
+footer nav {
+    display:flex;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
+    font-variant: all-small-caps;
+    font-size:2rem;
+}
+footer {
+    background-color: powderblue;
+}
+footer a{
+    color:coral;
+}
