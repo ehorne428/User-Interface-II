@@ -9,6 +9,9 @@
 html {
     font-size:62.5%;
 }
+h1{
+    padding-top: 1.5%
+}
 h1, h2{
     font-size: 4rem;
     text-align:center;
@@ -23,7 +26,6 @@ header nav {
     justify-content: space-around;
 }
 .links {
-    color:coral;
     background-color: powderblue;
     width:30%;
     display:flex;
@@ -31,11 +33,25 @@ header nav {
 }
 .links a{
     text-decoration: none;
-    color: salmon;
+    color: black;
     padding: 2% 5%;
 }
+#home a:hover{
+    color: salmon;
+}
+#about a:hover{
+    color: salmon;
+}
+#contact a:hover{
+    color: salmon;
+}
+#projects a:hover{
+    color: salmon;
+}
+
 header{
     background-color: powderblue;
+    height:20vh;
 }
  .intropara p {
     font-size: 1.5rem;
@@ -69,15 +85,22 @@ header{
     width:18%;
     display:flex
 }
-#one img{
+#one img:hover{
+    border:3px solid salmon;
 
 } 
-#two img{
-}
-#three img{
+#two img:hover{
+    border:3px solid salmon;
 
 }
-#four img {
+#three img:hover{
+    border:3px solid salmon;
+
+
+}
+#four img:hover{
+    border:3px solid salmon;
+
     }
    
 #text p {
