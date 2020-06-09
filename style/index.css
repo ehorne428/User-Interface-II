@@ -1,1 +1,178 @@
 /* Add CSS styling here */
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:0; 
+}
+html {
+    font-size:62.5%;
+}
+h1{
+    padding-top: 1.5%
+}
+h1, h2{
+    font-size: 4rem;
+    text-align:center;
+    font-family: 'Satisfy', cursive;
+    color: coral;
+}
+header nav {
+    font-family: 'Raleway', sans-serif;
+    font-variant: all-small-caps;
+    font-size: 2rem;
+    display:flex;
+    justify-content: space-around;
+}
+.links {
+    background-color: powderblue;
+    width:30%;
+    display:flex;
+    justify-content: space-evenly;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    padding: 2% 5%;
+}
+#home a:hover{
+    color: salmon;
+}
+#about a:hover{
+    color: salmon;
+}
+#contact a:hover{
+    color: salmon;
+}
+#projects a:hover{
+    color: salmon;
+}
+
+header{
+    background-color: powderblue;
+    height:20vh;
+}
+ .intropara p {
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+    background-color: coral;
+    padding:2% 5%;
+
+}
+.toppicture {
+    background-color: powderblue;
+    border: 5px solid powderblue;
+}
+.bigpicture img {
+    max-width: 100%;
+    height: auto;
+    padding:3%;
+    display:flex;
+    justify-content: center;
+}
+#mountains{
+    width: 100%;
+    height:40vh;
+}
+.bottomsection {
+    display:flex;
+    background:powderblue;
+    padding: 2%;
+    justify-content: space-evenly;
+    align-items:center;
+    /* border: 5px solid blue; */
+}
+.bottomsection div{
+    border: none;
+    width:18%;
+    display:flex
+}
+#one img:hover{
+    border:3px solid salmon;
+
+} 
+#two img:hover{
+    border:3px solid salmon;
+
+}
+#three img:hover{
+    border:3px solid salmon;
+
+
+}
+#four img:hover{
+    border:3px solid salmon;
+
+    }
+   
+#text p {
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+    width:80%;
+}
+.contactme{
+    text-align:center;
+    border:2px solid salmon;
+    padding:1% 5%;
+    width:100%;
+}
+footer nav {
+    display:flex;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
+    font-variant: all-small-caps;
+    font-size:2rem;
+}
+footer {
+    background-color: powderblue;
+}
+footer a{
+    color:coral;
+}
+
+@media(max-width: 800px){
+    .links{
+        display:flex;
+        justify-content: space-around;
+        width:80%;
+    }
+    .bottomsection div{
+        width:40%;
+    }
+    .bottomsection {
+        display:flex;
+        flex-wrap:wrap;
+    }
+    #one img, #two img, #three img, #four img{
+        margin-bottom: 5%;
+    }
+    #text p{
+        width:100%;
+    }
+    .contactme{
+        border:2px solid salmon;
+        padding:3% 5%;
+        width:100%;
+        text-align:center;
+     }
+}
+ @media(max-width:500px){
+     .links{
+         display: flex;
+         flex-direction:column;
+        align-items:center;
+     }
+     .links a{
+         padding:4% 1%;
+         border: none;
+     }
+    #three img, #four img{
+        margin-bottom: 25%;
+    }
+    #text{
+        margin-bottom: 5%;
+    }
+ }
